@@ -1,0 +1,1 @@
+<span>Date: {{ date | date('m-d-Y') }}</span>

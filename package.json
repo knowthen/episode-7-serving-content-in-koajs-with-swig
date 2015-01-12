@@ -1,0 +1,29 @@
+{
+  "name": "ServeContentWithSwig",
+  "version": "0.1.0",
+  "description": "Serving Content in Koajs with Swig",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "koajs",
+    "swig",
+    "nodejs"
+  ],
+  "author": "James Moore <james@knowthen.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "co-body": "^1.0.0",
+    "co-mocha": "^1.1.0",
+    "co-supertest": "0.0.7",
+    "co-views": "^0.2.0",
+    "colors": "^1.0.3",
+    "escape-html": "^1.0.1",
+    "inflection": "^1.5.3",
+    "koa": "^0.14.0",
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0",
+    "swig": "^1.4.2"
+  }
+}
