@@ -17,8 +17,6 @@ Lastly we'll **extend** **swigs** functionality, creating a couple of _custom_ _
 
 Stay tuned for the next episode, where we look at **Marko** a _new_ and _interesting_ **templating language** that provides some **interesting** **features** and **performance** characteristics.
 
-Source for this episode is available at [https://github.com/knowthen/episode-7-serving-content-in-koajs-with-swig](https://github.com/knowthen/episode-7-serving-content-in-koajs-with-swig)
-
 Please join my mailing list so I can let you know when new screencasts are released 
 
 http://knowthen.com/join/
