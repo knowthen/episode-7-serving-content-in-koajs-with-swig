@@ -1,1 +1,1 @@
-<span>Date: {{ date | date('m-d-Y') }}</span>
+<span>Date: {{ date | date('n-j-Y') }}</span>

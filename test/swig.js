@@ -115,8 +115,9 @@ describe('Swig', function(){
   it('should format a date', function *(){
 
     let date = new Date(2015, 0 , 9);
-
-    yield testHelper('datefilter', /Date: 01-09-2015/, false, {date: date});
+    
+    let date_string = date.getUTCMonth() + 1 + '-' + date.getUTCDate() + '-' + date.getUTCFullYear();
+    yield testHelper('datefilter', new RegExp('Date: ' + date_string), true, {date: date});
 
   }); 
 
